@@ -3,4 +3,4 @@
 celsius=float(input("Enter temperature in Celsius: "))
 fahrenheit=(celsius*9/5)+32
 
-print(str(celsius)+" degrees celsius is equal to "+str(fahrenheit)+" degrees fahrenheit")
+print(f"{celsius} degrees Celsius is equal to {fahrenheit} degrees Fahrenheit") #added capital letters; upgraded print statement
